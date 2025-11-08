@@ -7,4 +7,8 @@ spring:
       password: P@ssword
   jpa:
     show-sql: true
+  mvc:
+    hidden method:
+      filter:
+        enabled: true
 
